@@ -88,8 +88,9 @@ loginForm?.addEventListener("submit", async (e) => {
       email,
       password
     );
-    window.location.href = "../ToDo/todo.html";
+    window.location.href = "ToDo/todo.html";
   } catch (error) {
     document.getElementById("login-error").textContent = error.message;
   }
 });
+
